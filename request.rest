@@ -1,2 +1,8 @@
-GET https://viacep.com.br/ws/88034040/json/
+POST http://localhost:3003/users/create
 Content-Type: application/json
+
+{
+    "name": "Luiz",
+    "zipcode": "00000022",
+    "number": "10"
+}
